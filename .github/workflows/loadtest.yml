@@ -27,7 +27,7 @@ jobs:
             scenarios: {
               constant_rate_test: {
                 executor: 'constant-arrival-rate',
-                rate: 450,         // 450 طلب في الثانية
+                rate: 850,         // 450 طلب في الثانية
                 timeUnit: '1s',
                 duration: '30s',   // مدة الاختبار (30 ثانية)
                 preAllocatedVUs: 600,
